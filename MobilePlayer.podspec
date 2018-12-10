@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "ZYMobilePlayer"
+  s.name = "MobilePlayer"
   s.version = "2.0.0"
   s.summary = "A powerful and completely customizable media player for iOS."
   s.homepage = "https://github.com/mobileplayer/mobileplayer-ios"
