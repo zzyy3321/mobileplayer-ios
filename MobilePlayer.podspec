@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   s.license = 'CC'
   s.author = { "Barış Şencan" => "baris.sncn@gmail.com",
                "Cem Olcay" => "ccemolcay@gmail.com" }
-  s.source = { :git => "https://github.com/mobileplayer/mobileplayer-ios.git", :tag => s.version.to_s }
+  s.source = { :git => "https://github.com/zzyy3321/mobileplayer-ios.git", :tag => s.version.to_s }
   s.platform = :ios, '8.0'
   s.requires_arc = true
   s.frameworks = 'UIKit', 'MediaPlayer'
   s.source_files = 'MobilePlayer/**/*.swift'
   s.resource_bundle  = { 'MobilePlayer' => 'MobilePlayer/**/*.png' }
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 end
